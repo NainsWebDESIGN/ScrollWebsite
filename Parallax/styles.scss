@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-@import "void";
+
+@mixin itemCenter{
+    justify-content: center;
+    align-items: center;
+}
+@mixin poReset{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+$mainColor: #359381;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    // font-family: "Fira Code", monospace;
-    // font-optical-sizing: auto;
-    // font-weight: 700;
-    // font-style: normal;
 }
 
 body{
